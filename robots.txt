@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://womik01.github.io/PROVERKA-MICROPHON/

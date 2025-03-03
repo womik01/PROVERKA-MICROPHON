@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проверка микрофона</title>
+    <link rel="stylesheet" href="style.css"> <!-- Подключение стилей -->
+</head>
+<body>
+    <div class="container">
+        <h1>Проверка микрофона</h1>
+        <button id="recordButton">🎤 Начать запись</button>
+        <button id="stopButton" class="hidden">🛑 Остановить</button>
+        <canvas id="visualizer" class="hidden"></canvas> <!-- Аудио-анимация -->
+        <audio id="audioPlayback" controls class="hidden"></audio>
+    </div>
+    <script src="script.js"></script> <!-- Подключение скрипта -->
+</body>
+</html>
